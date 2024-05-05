@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Azul claro */
+  color: #333; /* Cor de texto padrão */
+}
+
+header {
+  background-color: #4682b4; /* Azul aço */
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* Texto branco */
+}
+
+nav {
+  background-color: #87ceeb; /* Azul céu */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Cor de texto padrão */
+}
+
+main {
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('https://via.placeholder.com/800x400/87ceeb/ffffff?text=Banner+Image');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff; /* Texto branco */
+  padding: 100px 0;
+}
+
+.banner h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4682b4; /* Azul aço */
+  color: #fff; /* Texto branco */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #357ca5; /* Azul aço mais escuro */
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #4682b4; /* Azul aço */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff; /* Texto branco */
+}
